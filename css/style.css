@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0 auto;
     font-family: "Times New Roman", Times, serif;
-    /* width: 1024px; */
     background-image: linear-gradient(to left, grey, white);
 }
 
@@ -11,11 +10,18 @@ body {
     margin: 0 auto;
 }
 
+.inner-wrapper{
+    margin: 0 auto;
+    width: 50%;
+}
+
 .title-name {
     display: inline-block;
     margin-top: 30px;
     margin-bottom: -45px;
 }
+
+
 
 .title-name h1 {
     float: left;
@@ -29,17 +35,12 @@ body {
     border: 1px solid gray;
     border-radius: 50%;
 }
-header{
-    padding-left: 40px;
-}
-main{
-    padding-left: 40px;
+
+.code-education{
+    text-align:left ;
 }
 
 .ul-education{
-    line-height: 5px;
-}
-p{
     line-height: 5px;
 }
 .a-example{
