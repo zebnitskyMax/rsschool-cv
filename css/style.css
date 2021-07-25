@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 
-.inner-wrapper{
+.inner-wrapper {
     margin: 0 auto;
     width: 50%;
 }
@@ -19,6 +19,7 @@ body {
     display: inline-block;
     margin-top: 30px;
     margin-bottom: -45px;
+    
 }
 
 
@@ -36,20 +37,15 @@ body {
     border-radius: 50%;
 }
 
-.code-education{
-    text-align:left ;
+.code-education {
+    text-align: left;
 }
+
 
 .example{
     color: red;
 }
-.ul-education{
-    line-height: 5px;
-}
-.a-example{
-    line-height:5px;
 
-}
 
 footer{
     padding-top: 30px;
