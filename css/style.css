@@ -40,7 +40,9 @@ body {
 .code-education {
     text-align: left;
 }
-
+.example{
+    color: red;
+}
 .ul-education {
     line-height: 5px;
 }
