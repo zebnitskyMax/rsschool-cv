@@ -40,10 +40,32 @@ body {
     text-align:left ;
 }
 
+.example{
+    color: red;
+}
 .ul-education{
     line-height: 5px;
 }
 .a-example{
     line-height:5px;
 
+}
+
+footer{
+    padding-top: 30px;
+    border-top: 1px solid black;
+}
+
+.footer_list_item{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.footer_list_item:first-child{
+    margin-left: 0;
+}
+.laybal_rsschool{
+    border-radius: 50%;
+    width: 30px;
 }
