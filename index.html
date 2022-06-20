@@ -11,6 +11,31 @@
 <body>
     <div class="wrapper">
         <div class="inner-wrapper">
+            <nav class="nav">
+                <ul class="nav__nav-list">
+                    <li class="nav__elem">
+                        <a href="#Summary" class="nav__item">Summary</a>
+                    </li>
+                    <li class="nav__elem">
+                        <a href="#Skills" class="nav__item">Skills</a>
+                    </li>
+                    <li class="nav__elem">
+                        <a href="#Code exampl" class="nav__item">Code exampl</a>
+                    </li>
+                    <li class="nav__elem">
+                        <a href="#Projects" class="nav__item">Projects</a>
+                    </li>
+                    <li class="nav__elem">
+                        <a href="#Experience" class="nav__item">Experience</a>
+                    </li>
+                    <li class="nav__elem">
+                        <a href="#Education" class="nav__item">Education</a>
+                    </li>
+                    <li class="nav__elem">
+                        <a href="#English" class="nav__item">English</a>
+                    </li>
+                </ul>
+            </nav>
             <header class="title-name">
                 <h1>Max Zebnitsky</h1>
                 <img class="avatarka" src="img/hulk_is_reading.jpg" alt="hulk is reading" title="I am">
@@ -31,13 +56,13 @@
                 </section>
                 <section>
                     <div>
-                        <h2>Summary</h2>
+                        <h2 id="Summary">Summary</h2>
                         <p> Hard-working and energetic junior, eager to learn new languages and technologies.</p>
                     </div>
                 </section>
                 <section>
                     <div>
-                        <h2>Skills</h2>
+                        <h2 id="Skills">Skills</h2>
                         <ul class="ul-skills">
                             <li>HTML</li>
                             <li>CSS/Sass</li>
@@ -50,23 +75,23 @@
                 </section>
                 <section>
                     <div class="code-example">
-                        <h2>
+                        <h2 id="Code exampl">
                             Code exampl
                         </h2>
                         <pre>
-                            <code class="example">
-                                let arr = [3, 4, 5, 6, 7];
-                                Array.prototype.mySumm = function (a) {
-                                    return this.map(item => {
-                                        return item * a;
-                                    })
-                                }
-                                console.log(arr.mySumm(3))
-                            </code>
+                        <code class="example">
+                            let arr = [3, 4, 5, 6, 7];
+                            Array.prototype.mySumm = function (a) {
+                                return this.map(item => {
+                                    return item * a;
+                                })
+                            }
+                            console.log(arr.mySumm(3))
+                        </code>
                         </pre>
                     </div>
                     <div>
-                        <h3>Projects</h3>
+                        <h3 id="Projects">Projects</h3>
                         <ul class="list-projects">
                             <li class="project-item">
                                 <a class="a-example"
@@ -93,13 +118,13 @@
                 </section>
                 <section>
                     <div>
-                        <h2>Experience</h2>
+                        <h2 id="Experience">Experience</h2>
                         <p>No commercial experience</p>
                     </div>
                 </section>
                 <section>
                     <div>
-                        <h2>Education</h2>
+                        <h2 id="Education">Education</h2>
                         <ul class="ul-education">
                             <li>
                                 <p>Myfreedom Frontend course</p>
@@ -118,7 +143,7 @@
                 </section>
                 <section>
                     <div>
-                        <h2>English</h2>
+                        <h2 id="English">English</h2>
                         <p>Pre-intermediate level after 1.5 years of private tutor</p>
                     </div>
                 </section>
