@@ -9,6 +9,26 @@ body {
     width: 1024px;
     margin: 0 auto;
 }
+.nav__elem{
+    list-style-type: none;
+}
+.nav__item{
+    text-decoration: none;
+    color: black;
+}
+.nav__item:hover{
+ border-bottom: 1px solid black;
+ font-size: 14px;
+ transition: .3s;
+ 
+}
+.nav__nav-list{
+    font-size: 16px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .inner-wrapper {
     margin: 0 auto;
