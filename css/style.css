@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+    background-image: linear-gradient(to left, grey, white);
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+.nav__elem{
+    list-style-type: none;
+}
+.nav__item{
+    text-decoration: none;
+    color: black;
+}
+.nav__item:hover{
+ border-bottom: 1px solid black;
+ font-size: 14px;
+ transition: .3s;
+ 
+}
+.nav__nav-list{
+    font-size: 16px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.title-name {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -45px;
+    
+}
+
+
+
+.title-name h1 {
+    float: left;
+    margin-right: 150px;
+}
+
+.avatarka {
+    width: 128px;
+    height: 100px;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.code-education {
+    text-align: left;
+}
+
+
+.example{
+    color: red;
+}
+
+
+footer{
+    padding-top: 30px;
+    border-top: 1px solid black;
+}
+
+.footer_list_item{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.footer_list_item:first-child{
+    margin-left: 0;
+}
+.laybal_rsschool{
+    border-radius: 50%;
+    width: 30px;
+}
+.laybal_rsschool:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
